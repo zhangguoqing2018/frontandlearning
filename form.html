@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>表单</title>
+
+</head>
+
+<body>
+    <form action="/new-friend" method="post">
+        姓名：
+        <input type="text" name="name">
+        <br> 
+        
+        性别：
+        <select name="sex" id="">
+            <option value="male">男</option>
+            <option value="female">女</option>
+        </select>
+        <br>
+        <div>
+            <label class="itemTitle">介绍：</label>
+            <textarea name="introduce" cols="30" rows="10" style="vertical-align:top"></textarea>
+        </div>
+        <!--
+        介绍：
+        <textarea name="introduce" cols="30" rows="10"></textarea>
+        -->
+        <br>
+
+        <button type="submit" value="submit">提交</button>
+    </form>
+</body>
+
+</html>
